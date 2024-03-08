@@ -1,0 +1,73 @@
+small,span,
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+   list-style-type:none ;
+}
+
+body{
+    font-family:  'Open Sans', sans-serif;
+    background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ 
+  
+  /* nav bar css start */
+#myNav{
+    /*background-color: #9ab3c4;*/
+    display: flex;
+}
+#myNav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myNav #myMenu{
+    justify-content: flex-end;
+}
+#myNav .navbar-brand{
+    width: 700px;
+}
+#myNav .myMenu{
+    width: 700px;
+}
+
+#myNav .navbar-brand img {
+    height: 40px;
+    width: auto;
+    /* Add margin to separate logo from menu items */
+}
+#myNav .navbar-nav.right-aligned {
+    justify-content: flex-end;
+}
+
+
+#myNav #myMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#myNav #myMenu ul li  a{
+    font-size: 12px;
+font-weight: 800;
+color: white;
+text-transform: uppercase;
+padding: 15px 20px;
+transition: .6s;
+text-decoration: none;
+
+}
+
+#myNav #myMenu ul li:hover a{
+    background: #90109e;
+    color:black;
+ }
+
+/* nav bar css end *
